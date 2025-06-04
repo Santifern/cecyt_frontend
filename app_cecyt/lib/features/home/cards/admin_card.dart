@@ -259,6 +259,7 @@ class _AdminCardState extends State<AdminCard> {
                       }
                       return null;
                     },
+                    // TODO: Poner un InputDecoration para seleccionar fecha 
                   ),
                   TextFormField(
                     controller: _timeController,
